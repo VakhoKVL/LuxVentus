@@ -105,6 +105,111 @@ body {
     max-width: 494px;
 }
 
+
+/*--------- fashion section--------- */
+.fashion{
+    max-width: 1204px;
+    margin: 0 auto;
+    margin-top: 52px;
+}
+
+/* ---image section--- */
+
+.img-section{
+    position: relative;
+}
+
+.img-section a{
+    position: absolute;
+    top: 23px;
+    left: 47px;
+    color: white;
+    padding: 10px 81px;
+    border-radius: 40px;
+    background-color: #262626;
+    transition: .2s;
+
+}
+
+.img-section a:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 5px white;
+}
+
+/*--- text section ---*/
+
+.text-content{
+    padding-left: 64px;
+    padding-top: 23px;
+    padding: 45px;
+    box-shadow: 0px 6px 6px 0px #0000000D;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.smalltxt-section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+
+}
+
+.p-section{
+    display: flex;
+    gap: 130px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #BCBCBC;
+    margin-left: 15px;
+    margin-right: 490px;
+}
+
+.smalltxt-section h2{
+    color: #F25E5E;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.bigtxt-section{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    margin-bottom: 40px;
+    max-width: 800px;
+
+}
+
+.bigtxt-section h1{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.bigtxt-section p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.button2{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    color: #4CE0D7;
+    font-size: 12px;
+    font-weight: 700;
+    transition: .2s;
+    width: max-content;
+}
+
+.button2:hover{
+    transform: translateX(15px);
+
+}
+
+
+
 /* ======fourth section====== */
 
 .fourth-section{
