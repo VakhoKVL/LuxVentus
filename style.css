@@ -363,6 +363,11 @@ body {
 
 }
 
+.fashion-image a:hover{
+    background-color: white;
+    color: #262626;
+}
+
 .fashion-image img{
     border-radius: 20px;
 }
