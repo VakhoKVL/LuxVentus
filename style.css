@@ -316,6 +316,91 @@ body {
     justify-content: space-between;
 }
 
+/* miros section  */
+
+.fashion-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-top: 88px;
+    margin-bottom: 69px;
+
+}
+
+.fashion-card{
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 6px 6px 0px #0000000D;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    transition: .4s;
+
+}
+
+.fashion-card:hover {
+    transform: scale(1.1);
+}
+
+.fashion-image{
+    position: relative;
+    margin-bottom: -6px;
+}
+
+.fashion-image a{
+    position: absolute;
+    padding: 9px 51px;
+    top: 25px;
+    left: 34px;
+    color: white;
+    background-color: #262626;
+    font-size: 12px;
+    font-family: 700;
+    border-radius: 40px;
+}
+
+.fashion-image img{
+    border-radius: 20px;
+}
+
+
+.fashion-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    gap: 25px;
+}
+
+.fashion-icon{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.fashion-icon img{
+    border-radius: 50%;
+}
+
+.fashion-p{
+    display: flex;
+    gap: 130px;
+    color: #BCBCBC;
+    font-size: 17px;
+}
+
+.fashion-text {
+    max-width: 450px;
+}
+
+
+.fashion-arrow a{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: #4CE0D7;
+    font-size: 12px;
+    font-weight: 700;
+}
 
 
 
