@@ -119,6 +119,9 @@ body {
     position: relative;
 }
 
+.img-section img{
+    max-width: 100%;
+}
 .img-section a{
     position: absolute;
     top: 23px;
@@ -165,13 +168,15 @@ body {
     font-weight: 400;
     color: #BCBCBC;
     margin-left: 15px;
-    margin-right: 490px;
+    /* margin-right: 490px; */
 }
 
 .smalltxt-section h2{
     color: #F25E5E;
     font-size: 14px;
     font-weight: 700;
+    margin-left: auto;
+    padding-left: 20px;
 }
 
 .bigtxt-section{
@@ -551,3 +556,119 @@ body {
     transform: scale(1.1);
     
   }
+
+  @media screen and (max-width: 1024px) {
+    .fashion-card{
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .fourth-section-cards {
+        flex-wrap: wrap;
+    }
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .navigation a{
+        padding: 8px 16px;
+    }
+    .fashion{
+        padding: 0 16px;
+    }
+    .fourth-section-card{
+        margin: 0 26px;
+    }
+    .fashion-image {
+        width: 100%;
+    }
+    .fashion-image img {
+        object-fit: cover;
+        width: 100%;
+    }
+       .fourth-section-cards{
+        gap: 30px;
+        margin: 0 26px;
+    }
+    .first-section{
+     background-size: 100%;
+     max-width: 992px;
+     height: 450px;
+    }
+
+    .second-section-cards{
+        justify-content: center;
+        gap: 30px;
+    }
+    .fourth-section-cards{
+        justify-content: space-around;
+    }
+
+
+    .first-section h2 {
+        font-size: 39px;
+        font-weight:400;
+    }
+        .second-section{
+        margin-top: 32px;
+        margin-bottom: 0;
+    }
+    .main-title-2{
+        margin-bottom: 32px;
+    }
+    .navigation-32{
+        margin-top: 0;
+    }
+  }
+
+
+  @media screen and (max-width: 800px) {
+    .fashion-card{
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .fourth-section-cards {
+        flex-wrap: wrap;
+    }
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .navigation a{
+        padding: 8px 16px;
+    }
+    .fashion{
+        padding: 0 16px;
+    }
+    .fourth-section-card{
+        margin: 0 26px;
+    }
+    .fashion-image {
+        width: 100%;
+    }
+    .fashion-image img {
+        object-fit: cover;
+        width: 100%;
+    }
+    .footer-1{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .fourth-section-cards{
+        gap: 30px;
+        margin: 0 26px;
+    }
+    .first-section{
+     max-width: 780px;
+     height: 350px;
+    }
+}
+
+
+
+
+  
+
